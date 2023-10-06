@@ -2,3 +2,15 @@ en
 conf t
 hostna R1
 do sho ip int br
+int s0/0
+ip address 172.16.0.1 255.255.255.240
+no shut
+int s0/1
+ip address 172.16.0.17 255.255.255.240
+no shut
+int lo0 
+ip address 10.96.0.1 255.255.255.255
+no shut
+int f0/1.801
+encapsulation dot1Q 801
+ip address 10.89.0.1 255.255.255.240
