@@ -1,0 +1,4 @@
+en
+conf t
+hostna R1
+do sho ip int br
