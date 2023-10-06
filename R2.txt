@@ -3,7 +3,7 @@ conf t
 hostna R2
 do sho ip int br
 int s0/0
-ip address 172.16.0.1 255.255.255.240
+ip address 172.16.0.2 255.255.255.240
 no shut
 int s0/1
 ip address 172.16.0.17 255.255.255.240
